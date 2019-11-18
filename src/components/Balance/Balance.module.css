@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.span {
+  margin-right: 24px;
+  width: 100px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.income {
+  composes: span;
+}
+
+.expenses {
+  composes: span;
+}

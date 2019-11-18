@@ -1,0 +1,28 @@
+.wrapper {
+  background-color: #062b55;
+  height: 142px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border: none;
+  width: 260px;
+  margin-right: 21px;
+  padding: 10px 0 10px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.buttons {
+  background-color: #3884fe;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 21px;
+  border: none;
+  border-radius: 5px;
+  width: 185px;
+  cursor: pointer;
+}
