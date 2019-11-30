@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import PropTypes from 'prop-types';
 
 import shortid from 'shortid';
 
@@ -87,20 +86,6 @@ class Dashboard extends Component {
       });
     }
   };
-
-  // handleSumTransaction() {
-  //   const { transactions } = this.state;
-
-  //   return transactions.reduce(
-  //     (acc, transaction) => {
-  //       return {
-  //         ...acc,
-  //         [transaction.type]: transaction.amount + acc[transaction.type],
-  //       };
-  //     },
-  //     { deposit: 0, withdraw: 0 },
-  //   );
-  // }
 
   handleSumTransaction = type => {
     return this.state.transactions.reduce(

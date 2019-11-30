@@ -7,8 +7,13 @@ import styles from './Balance.module.css';
 
 const Balance = ({ balance, income, expenses }) => (
   <section className={styles.wrapper}>
-    <span className={styles.income}>+ {income} </span>
-    <span className={styles.expenses}> - {expenses}</span>
+    <span className={styles.income}>
+      <i className={styles.materialIcons}>arrow_upward</i> {income}$
+    </span>
+    <span className={styles.expenses}>
+      <i className={styles.materialIconsDown}>arrow_downward</i>
+      {expenses}$
+    </span>
     <span className={styles.balance}>Balance: {balance}$</span>
   </section>
 );
